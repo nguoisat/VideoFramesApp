@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+
+<Button
+android:id="@+id/btnPickVideo"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Chọn Video" />
+
+
+<EditText
+android:id="@+id/etInterval"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Nhập số giây (ví dụ 1)"
+android:inputType="number"
+android:layout_marginTop="12dp"/>
+
+
+<Button
+android:id="@+id/btnExtract"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Xuất ảnh"
+android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>

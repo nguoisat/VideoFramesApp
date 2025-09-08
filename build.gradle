@@ -1,0 +1,3 @@
+plugins {
+// Không khai báo gì ở root cho gọn
+}
